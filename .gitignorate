@@ -1,21 +1,4 @@
-# Entorno virtual
-venv/
-.env
-
-# Archivos de Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-
-# Archivos temporales
-*.log
-
-# Configuración de Streamlit
+.venv/
+__pychame__
 .streamlit/
-
-# Archivos de Jupyter
-.ipynb_checkpoints/
+*.csv
