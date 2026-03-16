@@ -106,7 +106,7 @@ st.table(df_final)
 
 resultado = st.text_area(
 "Dashboard interactivo, ✍️ Tu explicación (Propias palabras, sin IA)",
-value="""Primero se pueden seleccionar los tipos de productos que se quieren ver y también se puede filtrar por monto mínimo de venta. El resultado es una tabla que muestra solo los pedidos que cumplen con ambos criterios.
+value="""Primero se pueden seleccionar los tipos de productos que se quieren ver y también se puede filtrar por el tipo de producto seleccionado y por el monto mínimo de venta. El resultado es una tabla que muestra solo los pedidos que cumplen con ambos criterios.
 """,
 )
 
